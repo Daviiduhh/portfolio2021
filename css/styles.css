@@ -170,7 +170,7 @@ section {
 }
 
 .home__title {
-  font-size: 60px;
+  font-size: 6rem;
   color: var(--blue);
 }
 
@@ -182,10 +182,8 @@ section {
 
 
 .section__title {
-  color: var(--grey);
-  font-size: 35px;
-  margin-bottom: 30px;
   display: flex;
+  color: var(--grey);
 }
 
 .section__subtitle {

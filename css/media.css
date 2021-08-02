@@ -52,10 +52,6 @@
       font-size: 35px;
     }
   
-    .section__title {
-      font-size: 25px;
-    }
-  
     .section__title:after {
       width: 110px;
       height: 3px;
