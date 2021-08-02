@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="I'm a frontend developer. Here you can see my portfolio, skills and a little more about me."
+    />
+    <meta
+      property="og:description"
+      content="I'm a frontend developer. Here you can see my portfolio, skills and a little more about me."
+    />
+    <meta property="og:title" content="David Madrid | Frontend Developer"/>
+    <meta property="og:type" content="website"/>
+    <meta
+      property="og:site_name"
+      content="David Madrid | Frontend Developer"
+    />
+
+    <link rel="preload" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+
+    <link rel="preload" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+
+    <link rel="shortcut icon" href="assets/favicon.ico">
+
+    <title>David Madrid</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <a href="#">daviiduhh</a>
+          </p>
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">Home</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">About</a>
+          </li>
+          <li class="navbar__link" data-ref="services">
+            <a href="#services">Services</a>
+          </li>
+          <li class="navbar__link" data-ref="portfolio">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="home__description">
+        <span class="home__title--primary">Hi!</span>
+        <h1 class="home__title">I'm David Madrid Nápoles</h1>
+        <span class="home__title--secondary">Frontend Developer</span>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section__title">About</h2>
+        <div class="about__grid">
+          <div class="about__description">
+            <h2>Who am I?</h2>
+            <h2>I'm David Madrid Nápoles, Web Developer</h2>
+            <p>
+              I am a Front End developer with experience building websites and web applications. I specialize in JavaScript, and have professional experience working with React.
+            </p>
+
+            <p> 
+              I am always seeking to improve my skills to continually grow professionally to be able to contribute consistently to the workgroup with which I am. 
+            </p>
+            <a
+              class="button--cta"
+              href="./assets/Jose Estrada CV.pdf"
+              download="Jose Estrada CV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-file-download"></i>Download CV
+            </a>
+          </div>
+          <div class="about__skills">
+            <div class="skill__title">
+              <h2>My skills:</h2>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-html5"></i>
+              <div class="skill__name">HTML</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-css3-alt"></i>
+              <div class="skill__name">CSS</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-js"></i>
+              <div class="skill__name">JAVASCRIPT</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-git-alt"></i>
+              <div class="skill__name">GIT</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2 class="section__title">Services</h2>
+        <h3 class="section__subtitle">Services I offer to my clients</h3>
+        <div class="services__grid">
+          <div class="services__item">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Fully Responsive</h3>
+            <p>
+              Your site will display properly on any device, including desktop
+              computers, tablets and mobile phones.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-pencil-ruler"></i>
+            <h3>Creative Design</h3>
+            <p>
+              A good and attractive web design helps you keep your leads on your
+              site, which is the digital face of your business.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-code"></i>
+            <h3>Development</h3>
+            <p>
+              I know the importance of web design and can help you create a
+              website you’ll love.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-thumbs-up"></i>
+            <h3>Social Media Integration</h3>
+            <p>
+              There are a lot of social platforms out there, and you should
+              promote your presence on them on your website
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-tachometer-alt"></i>
+            <h3>Performance</h3>
+            <p>
+              Retaining users is crucial to improving conversions.
+              High-performing sites engage and retain users
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-crosshairs"></i>
+            <h3>SEO</h3>
+            <p>
+              I will optimize your site with intelligent Search Engine
+              Optimization strategy to generate leads.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="section__title">Portfolio</h2>
+        <h3 class="section__subtitle">Here you can see the projects I have worked on.</h3>
+        <!-- Inician proyectos -->
+        <div class="portfolio__grid">
+          <!-- Grid Portafolio -->
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/png" srcset=".//assets/poject4.png" />
+              <img class="portfolio__img" alt="portfolio item"/>
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Blog el buen café</h3>
+              <p class="portfolio__description--text">
+                Blog: HTML, CSS, JS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button button--portfolio"
+                  href="https://blogelbuencafe.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/Daviiduhh/blogElBuenCafe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Fin de item portafolio -->
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/png" srcset=".//assets/poject5.png" />
+              <img class="portfolio__img" alt="portfolio item"/>
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Napi Handcrafted</h3>
+              <p class="portfolio__description--text">
+                Blog: HTML, CSS, JS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button button--portfolio"
+                  href="https://napihandcrafted.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/jgestradam/Platzi-video"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Fin de item portafolio -->
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/png" srcset=".//assets/poject6.png" />
+              <img class="portfolio__img" alt="portfolio item"/>
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Portfolio Frontend developer</h3>
+              <p class="portfolio__description--text">
+                Blog: HTML, CSS
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button button--portfolio"
+                  href="https://miprimerportafolio.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a
+                  class="button"
+                  href="https://github.com/Daviiduhh/primerPortafolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Fin de item portafolio -->
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <h3 class="section__subtitle">
+          Contact me if you want us to work together.
+        </h3>
+        <div class="contact__grid">
+          
+          <a
+            href="mailto:daviiduhhs@gmail.com?Subject=Work"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Enviar correo"
+          >
+            <div class="contact__item">
+
+              <i class="far fa-envelope"></i>
+            </div>
+          </a>
+          
+          <a
+            href="https://github.com/daviiduhh"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Github"
+          >
+            <div class="contact__item">
+              <i class="fab fa-github"></i>
+            </div>
+          </a>
+          <a
+            href="https://twitter.com/daviiduhh"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Twitter"
+          >
+            <div class="contact__item">
+              <i class="fab fa-twitter"></i>
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/daviiduhh/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Linkedin"
+          >
+            <div class="contact__item">
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Copyright © 2021. <a href="#">@daviiduhh</a> <br />
+          All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/7b5fb2de65.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script async src="js/main.js"></script>
+  </body>
+</html>
