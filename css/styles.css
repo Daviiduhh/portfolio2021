@@ -8,7 +8,6 @@
 :root{
   --white: #f4f1de;
   --grey: #3d405b;
-  --red: 	#e07a5f;
   --blue:#81b29a;
 }
 
@@ -143,7 +142,7 @@ section {
   padding: 30px;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.8);
+  background: var(--grey);
   position: relative;
 }
 
@@ -310,7 +309,6 @@ section {
 }
 
 .portfolio__item {
-  background: var(--white);
   position: relative;
   object-fit: cover;
   overflow: hidden;
@@ -394,7 +392,7 @@ section {
 
 .button--cta {
   background-color: var(--blue);
-  color: var(--gris);
+  color: var(--grey);
   padding: 5px 30px;
   display: inline-block;
   align-self: center;
@@ -402,14 +400,13 @@ section {
   font-weight: bold;
   border-radius: 5px;
 }
+.button--cta:hover {
+  background-color: var(--grey);
+  color: var(--white);
+}
 
 .button--cta i {
   margin-right: 10px;
-}
-
-.button--cta:hover {
-  background-color: #40BD81;
-  color: var(--gris);
 }
 
 .contact__grid {
