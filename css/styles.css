@@ -439,7 +439,7 @@ section {
 
 .fa-envelope:hover {
   transition: all 0.3s;
-  color: var(--red);
+  color: #f34f29;
 }
 .fa-github:hover {
   transition: all 0.3s;
