@@ -79,6 +79,10 @@ section {
   padding: 0 20px;
 }
 
+.fa-bars {
+  color: var(--white);
+}
+
 .navbar {
   position: fixed;
   background: transparent;
