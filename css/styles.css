@@ -259,6 +259,9 @@ section {
 .fa-terminal:hover {
   color: #000;
 }
+.fa-npm:hover{
+  color: #cc3534;
+}
 
 .skill__name {
   font-size: 2rem;
