@@ -79,6 +79,8 @@
   
     .button--cta {
       margin-bottom: 30px;
+      text-align: center;
+      width: 100%;
     }
   
     .services__item {

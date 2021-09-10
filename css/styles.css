@@ -6,9 +6,9 @@
   box-sizing: border-box;
 }
 :root{
-  --white: #f4f1de;
-  --grey: #3d405b;
-  --blue:#81b29a;
+  --white: #ffffff;
+  --grey: #282a35;
+  --blue:#04aa6d;
 }
 
 /* Globales */
@@ -125,7 +125,7 @@ section {
 }
 
 .navbar__link a {
-  color: #afafaf;
+  color: #ffffff;
   transition: color 0.3s;
 }
 

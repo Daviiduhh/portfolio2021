@@ -18,11 +18,11 @@ menu.addEventListener("click", handleLlinks);
 links.addEventListener("click", handleLlinks);
 
 window.addEventListener("scroll", function () {
-  window.scrollY > 100 && (navbar.style.background = `rgba(61,64,91,0.95)`);
+  window.scrollY > 100 && (navbar.style.background = `#282a35`);
   window.scrollY < 100 && (navbar.style.background = `transparent`);
 });
 
-let observer = new IntersectionObserver(function (entries, self) {
+let observer = new IntersectionObserver(function (entries) {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       intersectionHandler(entry);
@@ -61,19 +61,19 @@ function intersectionHandler(entry) {
 //   });
 // }
 
-ScrollReveal().reveal(".navbar", { delay: 250 });
-ScrollReveal().reveal(".home__profile", { delay: 250 });
-ScrollReveal().reveal(".home__title--primary", { delay: 250 });
-ScrollReveal().reveal(".home__title", { delay: 250 });
-ScrollReveal().reveal(".home__title--secondary", { delay: 250 });
-ScrollReveal().reveal(".section__title", { delay: 250 });
-ScrollReveal().reveal(".section__subtitle", { delay: 250 });
-ScrollReveal().reveal(".about__description", { delay: 250 });
-ScrollReveal().reveal(".about__summary", { delay: 250 });
-ScrollReveal().reveal(".button--cta", { delay: 250 });
-ScrollReveal().reveal(".skill__title", { delay: 250 });
-ScrollReveal().reveal(".skill__item", { delay: 250 });
-ScrollReveal().reveal(".services__item", { delay: 250 });
-ScrollReveal().reveal(".portfolio__item", { delay: 250 });
-ScrollReveal().reveal(".contact__item", { delay: 250 });
-ScrollReveal().reveal(".footer", { delay: 250 });
+ScrollReveal().reveal(".navbar", { delay: 180});
+ScrollReveal().reveal(".home__profile", { delay: 180});
+ScrollReveal().reveal(".home__title--primary", { delay: 180});
+ScrollReveal().reveal(".home__title", { delay: 180});
+ScrollReveal().reveal(".home__title--secondary", { delay: 180});
+ScrollReveal().reveal(".section__title", { delay: 180});
+ScrollReveal().reveal(".section__subtitle", { delay: 180});
+ScrollReveal().reveal(".about__description", { delay: 180});
+ScrollReveal().reveal(".about__summary", { delay: 180});
+ScrollReveal().reveal(".button--cta", { delay: 180});
+ScrollReveal().reveal(".skill__title", { delay: 180});
+ScrollReveal().reveal(".skill__item", { delay: 180});
+ScrollReveal().reveal(".services__item", { delay: 180});
+ScrollReveal().reveal(".portfolio__item", { delay: 180});
+ScrollReveal().reveal(".contact__item", { delay: 180});
+ScrollReveal().reveal(".footer", { delay: 180});
