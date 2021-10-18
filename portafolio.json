@@ -1,0 +1,46 @@
+{"portfolio": [
+    {
+        "img": "project1",
+        "title": "Mercado de monedas",
+        "technology": " ",
+        "web": "https://mercadodemonedas.app/",
+        "repo": "https://github.com/Daviiduhh/mercado-de-monedas"
+    },
+    {
+        "img": "project2",
+        "title": "dog API",
+        "technology": " ",
+        "web": "https://perritos-vue.netlify.app/",
+        "repo": "https://github.com/Daviiduhh/dogapi-vue"
+    },
+    {
+        "img": "project3.png",
+        "title": "Astronomy image of the day",
+        "technology": " ",
+        "web": "https://astronomyimgoftheday.netlify.app/",
+        "repo": "https://github.com/Daviiduhh/astronomy-img-of-the-day.git"
+    },
+    {
+        "img": "project4.png",
+        "title": "Hair Salon",
+        "technology": " ",
+        "web": "https://appbarberiadaviiduhh.netlify.app/",
+        "repo": "https://github.com/Daviiduhh/rockEdmFestival"
+    },
+    {
+        "img": "project5.png",
+        "title": "Rock & EDM festival",
+        "technology": " ",
+        "web": "https://daviiduhhfestival.netlify.app/",
+        "repo": "https://github.com/Daviiduhh/rockEdmFestival"
+    },
+    {
+        "img": "project6.png",
+        "title": "Blog el buen café",
+        "technology": " ",
+        "web": "https://blogelbuencafe.netlify.app/",
+        "repo": "https://github.com/Daviiduhh/blogElBuenCafe"
+    }
+]
+
+}
